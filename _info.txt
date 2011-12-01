@@ -1,33 +1,34 @@
 ########################
-SPLETNA UÈILNICA
+SPLETNA Uï¿½ILNICA
 ########################
+test
 
-	Novice o tem, da Ladislava in Jovo na veliko informatizirata svoji šoli je prebudila vaš podjetniški duh. 
-	Zakaj ne bi izdelali spletne uèilnice, ki bi jo lahko prodali kar obema... Pozabite na odprtokodni Moodle, 
-	preprièani ste, da lahko pripravite boljši izdelek.
+	Novice o tem, da Ladislava in Jovo na veliko informatizirata svoji ï¿½oli je prebudila vaï¿½ podjetniï¿½ki duh. 
+	Zakaj ne bi izdelali spletne uï¿½ilnice, ki bi jo lahko prodali kar obema... Pozabite na odprtokodni Moodle, 
+	prepriï¿½ani ste, da lahko pripravite boljï¿½i izdelek.
 
-	Vaša spletna uèilnica mora omogoèati najmanj:
+	Vaï¿½a spletna uï¿½ilnica mora omogoï¿½ati najmanj:
 		dodajanje predmetov,
-		dodajanje gradiv (besedilo, spletne povezave, razlièni dokumenti, predstavitve, ...) v predmet,
-		objavo nalog (besedilo) in oddajanje rešenih nalog (nalaganje datoteke),
+		dodajanje gradiv (besedilo, spletne povezave, razliï¿½ni dokumenti, predstavitve, ...) v predmet,
+		objavo nalog (besedilo) in oddajanje reï¿½enih nalog (nalaganje datoteke),
 		ocenjevanje nalog.
 
-	Seveda lahko razmislite še o drugih aktivnostih (forum, kviz, ...), ki jih sicer nudijo sodobne spletne uèilnice. 
-	Ne pozabite, da mora vaša spletna uèilnica loèiti med vlogami skrbnik, uèitelj in dijak oz. študent.
+	Seveda lahko razmislite ï¿½e o drugih aktivnostih (forum, kviz, ...), ki jih sicer nudijo sodobne spletne uï¿½ilnice. 
+	Ne pozabite, da mora vaï¿½a spletna uï¿½ilnica loï¿½iti med vlogami skrbnik, uï¿½itelj in dijak oz. ï¿½tudent.
 
 ########################
 ODAJA
 ########################
 
-	Iz seznama tem izberite temo, ki jo bo vaša skupina reševala v okviru prvega projekta.
-	Vaša rešitev mora biti narejena s tehnologijami oz. programskimi jeziki XHTML, JavaScript, PHP in XML. 
-	Tudi èe obvladate shranjevanje podatkov v podatkovno bazo, tokrat za shranjevanje uporabite kar datoteke XML.
+	Iz seznama tem izberite temo, ki jo bo vaï¿½a skupina reï¿½evala v okviru prvega projekta.
+	Vaï¿½a reï¿½itev mora biti narejena s tehnologijami oz. programskimi jeziki XHTML, JavaScript, PHP in XML. 
+	Tudi ï¿½e obvladate shranjevanje podatkov v podatkovno bazo, tokrat za shranjevanje uporabite kar datoteke XML.
 
 	V skupini si delo porazdelite nekako takole:
-		Uporabniški vmesnik (XHTML, CSS), JavaScript, AJAX
+		Uporabniï¿½ki vmesnik (XHTML, CSS), JavaScript, AJAX
 		Logika programa (PHP), AJAX
 		Shranjevanje podatkov (PHP, XML)
-	Kjer je možno in smiselno uporabite AJAX.
+	Kjer je moï¿½no in smiselno uporabite AJAX.
 
-	POMEMBNO: Vse datoteke vašega projekta arhivirajte v datoteko ZIP in oddajte le datoteko ZIP. 
-	Prosim nikar NE oddajajte datotek RAR, LHA, 7z, BZ2 in podobnih, saj nam to povzroèa dodatne preglavice pri popravljanju.
+	POMEMBNO: Vse datoteke vaï¿½ega projekta arhivirajte v datoteko ZIP in oddajte le datoteko ZIP. 
+	Prosim nikar NE oddajajte datotek RAR, LHA, 7z, BZ2 in podobnih, saj nam to povzroï¿½a dodatne preglavice pri popravljanju.
