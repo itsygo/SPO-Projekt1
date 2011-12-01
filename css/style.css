@@ -1,0 +1,219 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-indent: -1px;
+}
+body a, body a:active, body a:hover, body a:visited {
+	color: #000066;
+}
+hr {
+	margin: 10px 0;
+	border: 0;
+	border-top: 1px dotted #000;
+}
+#wrapper {
+	width: 100%;
+}
+#header {
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+}
+#header #logo {
+	padding: 25px 15px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 2.3em;
+	color: #000066;
+	float: left;
+}
+#header #userdata {
+	float: right;
+	padding: 25px 15px;
+	text-align: right;
+}
+
+#registerData {
+	margin: 20px 20px 20px 20px;
+}
+#content {
+	width: 100%;
+	position: relative;
+}
+#content #formlogin {
+	margin-left: 15px;
+}
+#content #formlogin label {
+	display: block;
+	font-size: 14px;
+}
+#content #formlogin input[type=text], #content #formlogin input[type=password], #content #formlogin textarea {
+	padding: 2px;
+	font-size: 14px;
+	width: 220px;
+}
+#content .sidebar {
+	width: 252px;
+	z-index: 99; 
+}
+#content .sidebar h2 {
+	font-size: 1.1em;
+	padding: 0 10px;
+	margin: 0;
+}
+#content .sidebar ul {
+	margin: 0;
+	padding: 0 20px;
+	list-style: none;
+}
+#content .sidebar .item {
+	background-color: #EBEBEB;
+	margin: 0 10px 10px;
+	padding: 5px 0;
+	border: 1px solid #CCCCCC;
+}
+#content #left {
+    float: left;
+    position: relative;
+}
+#content #left #navigation {
+	
+}
+
+#content #left #navigation2 {
+	
+}
+#content #right {
+	float: right;
+	position: relative;
+}
+#content #main {
+	position: relative;
+	padding: 0 252px;
+    
+}
+#content #main label {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+}
+#content #main label.error {
+	display:inline;
+	font-weight: normal;
+	font-size: 10px;
+	color: red;
+}
+#content #main input[type=text], #content #main input[type=password], #content #main textarea {
+	padding: 2px;
+	font-size: 12px;
+	width: 300px;
+	resize: none;
+}
+#content #main select {
+	padding: 2px;
+	font-size: 12px;
+	width: 308px;
+	overflow: hidden;
+}
+#content #main h1 {
+	margin-bottom: 15px;
+	padding: 0;
+}
+#content #main h3 {
+	margin: 0;
+	padding: 0;
+}
+#content #main ul {
+	margin: 0 0 10px 0;
+}
+#content #main p {
+	text-align: justify;
+	margin: 5px 0;
+}
+#content #main p.taskdate {
+	text-align: center;
+	font-size: 10px;
+}
+#content #main p.taskdate a {
+	text-decoration: none;
+}
+#content #main p.tasksbottom {
+	text-align: center;
+}
+#content #main p.tasksbottom a {
+	text-decoration: none;
+}
+#content #main p.adminbottom {
+	float: left;
+}
+#content #main #submittedtasks {
+	
+}
+#footer {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background-color: #EBEBEB;
+	margin: 0 10px 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.oddanaNalogaBg {
+    background: #EEEEEE;
+    width: 40%;
+
+    padding: 4px 4px 4px 4px;
+}
+
+.grayBg {
+    background: #EEEEEE;
+}
+
+#uciteljMeni {
+    margin-left: 0;
+    background: #EEEEEE;
+}
+#uciteljMeni li{
+    display:inline;
+}
+
+.dateRed {
+    background: red;
+}
+
+.naslovnicaPredmeta {
+    /*background: #EEEEEE;*/
+    padding: 1px 0 10px 10px;
+}
+
+#calendarPredmet {
+    text-align: center;
+    color: #FF4422;
+}
+
+.nova_ocena {
+    width: 100px !important;
+}
+
+#content #main p.taskdate {
+	text-align: center;
+	font-size: 10px;
+}
+
+#content #main p.taskdate a {
+	text-decoration: none;
+}
+
+#content #main form.taskdate {
+	text-align: center;
+	font-size: 10px;
+}
+#content #formR {
+    margin-left: 15px;
+}

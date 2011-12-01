@@ -1,0 +1,59 @@
+########################
+DRA�EN
+	@
+
+########################
+TOMA�
+- ko uploada student nalogo dodaj celotno 'oddanaNaloga' v xml...                                                       DONE
+- nalogo lahko uploada le tisti, ki je ni se oddal in ni zamudil roka oddaje                                            DONE
+- ucitelj ima moznost pregleda oddanih nalog ko klikne na nalogo in lahko napise oceno (kar json lahko uporabis)        DONE
+- ucitelj ima moznost dodajanja naloge                                                                                  DONE
+- ucitelj ima moznost dodajanja gradiva                                                                                 DONE
+- koledarcek desno z linki do nalog                                                                                     DONE
+- koledarcek pri dodajanju naloge za rokOddaje                                                                          DONE
+- administrator ima moznost dodajanja predmeta v posamezen letnik (in mora dolocit profesorja predmeta)                 DONE
+- student se lahko vpise in izpise iz predmeta                                                                          DONE
+- sprememba gesla
+- updejti profil nastavitve page
+- registracija novega studenta
+- zgori desni background odstrani... uredi dizajn.
+- css
+- design teh zgoraj...
+
+########################
+PRIMO�
+	@
+	
+TODO:
+	##drazen: @Nekateri TODO bom dodajal direkt v .php fajle, kje je predvidevano za kodo
+	
+	@XML baza
+		Tabele (preprosto):
+			User (username, password, usertype, name, surname, email, location, countrycode, website, phone, interests, description)
+			User_Course (username, ID_course)
+			Year (ID, year)
+			Course (ID, name, ID_year, description, lecturer_username, ...)
+				//year == letnik
+			CourseLessons (ID, name, ID_course, description, documents, links)
+			CourseTasks (ID, ID_course, name, description, date_entered, date_deadline)
+			User_CourseTasks (username, ID_coursetask, documentpath, rating, confirmed_date)
+				//duration 
+	
+	@branje in izpis podatkov - PHP
+	
+	@Mo�nosti
+		dodajanje predmetov - zaenkrat ne?
+		
+		brisanje predmetov - zaenkrat ne?
+		##drazen: to mi se ne da.
+	
+	@User types/roles
+		#administrator
+			adding courses?, administration, deleting, profile editing?, assigning courses to teachers,
+			adding teachers etc.
+			
+		#teacher
+			course administrator (assigned by main admin), course evaluation, adding tasks etc.
+		
+		#student
+			course application, evaluation review, tasks review etc.

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<baza>
+  <users>
+    <user>
+      <id>1</id>
+      <ime>Boris</ime>
+      <priimek>Bogdanovich</priimek>
+      <username>alpha</username>
+      <password>male</password>
+      <tip>administrator</tip>
+    </user>
+    <user>
+      <id>2</id>
+      <ime>Tucker</ime>
+      <priimek>Evil</priimek>
+      <username>tucker</username>
+      <password>tucker</password>
+      <tip>ucitelj</tip>
+    </user>
+    <user>
+      <id>3</id>
+      <ime>Dale</ime>
+      <priimek>Evil</priimek>
+      <username>dale</username>
+      <password>dale</password>
+      <tip>student</tip>
+    </user>
+    <user>
+      <id>4</id>
+      <ime>Matija</ime>
+      <priimek>Voldemort</priimek>
+      <username>matija</username>
+      <password>matija</password>
+      <tip>ucitelj</tip>
+    </user>
+    <user>
+      <id>5</id>
+      <ime>Keko</ime>
+      <priimek>Klomir</priimek>
+      <username>keki</username>
+      <password>keki</password>
+      <tip>student</tip>
+    </user>
+  </users>
+  <letniki>
+    <letnik>
+      <letnikIme>1. Letnik</letnikIme>
+      <predmeti>
+        <predmet>
+          <id>1</id>
+          <imePredmeta>Matematika 2</imePredmeta>
+          <opisPredmeta>Naučili se bomo osnove odvodov, ostalo pa naj ostane presenečenje.</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+            <userId>5</userId>
+          </ucenci>
+          <gradivaPredmeta>
+            <gradivo>
+              <id>1</id>
+              <besedilo>Gradivo za prvi teden</besedilo>
+              <povezaveGradiva>
+                <povezava>
+                  <id>1</id>
+                  <url>http://www.google.com</url>
+                  <besedilo>Tvoj best frend</besedilo>
+                </povezava>
+                <povezava>
+                  <id>2</id>
+                  <url>http://www.24ur.com</url>
+                  <besedilo>Govorijo resnico</besedilo>
+                </povezava>
+              </povezaveGradiva>
+            </gradivo>
+            <gradivo>
+              <id>2</id>
+              <besedilo>Nekaj literature snovi 2. tedna</besedilo>
+              <povezaveGradiva>
+                <povezava>
+                  <id>1</id>
+                  <url>http://www.google.com</url>
+                  <besedilo>Trigonometrični integrali</besedilo>
+                </povezava>
+                <povezava>
+                  <id>2</id>
+                  <url>http://www.24ur.com</url>
+                  <besedilo>Vesoljske vrste</besedilo>
+                </povezava>
+              </povezaveGradiva>
+            </gradivo>
+          </gradivaPredmeta>
+          <nalogePredmeta>
+            <naloga>
+              <id>1</id>
+              <besedilo>Izračunaj sedmi odvod strehe fri-ja. Vrni 136. potenco tega odvoda. Rešitev oddaj v pdf formatu.</besedilo>
+              <rokOddaje>28.12.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_1_2519_0001.pdf</pdfLink>
+                  <ocena/>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+            <naloga>
+              <id>2</id>
+              <besedilo>Pokaži in dokaži pisno in s skico da je 9973 praštevilo. Nalogo oddaj v PDF formatu.</besedilo>
+              <rokOddaje>29.11.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_2_mat2_dn1_1112.pdf</pdfLink>
+                  <ocena>2</ocena>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+            <naloga>
+              <id>3</id>
+              <besedilo>Izračunaj določeni integral na intervalu [min=levo_uho, max=desno_uho] funkcija ki ga opisuje pa je tvoja glava. Rešitev oddaj v PDF formatu.</besedilo>
+              <rokOddaje>08.12.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_3_druga (1).pdf</pdfLink>
+                  <ocena>10</ocena>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+          </nalogePredmeta>
+        </predmet>
+        <predmet>
+          <id>2</id>
+          <imePredmeta>Spletno programiranje</imePredmeta>
+          <opisPredmeta>Pretiravali bomo z domačimi nalogami :D</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+          </ucenci>
+          <gradivaPredmeta>
+            <gradivo>
+              <id>1</id>
+              <besedilo>Gradivo za prvi teden pri spletnem programiranju</besedilo>
+              <povezaveGradiva>
+              </povezaveGradiva>
+            </gradivo>
+          </gradivaPredmeta>
+          <nalogePredmeta>
+            <naloga>
+              <id>1</id>
+              <besedilo>Naredi novi facebook z vsemi lastnostmi ki jih trenutno ima vkljucno z moznostjo pisanja aplikacij.</besedilo>
+              <rokOddaje>29.11.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>/pdfji/dalen1_spo.pdf</pdfLink>
+                  <ocena/>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+          </nalogePredmeta>
+        </predmet>
+        <predmet>
+          <id>3</id>
+          <imePredmeta>Diskretna matematika</imePredmeta>
+          <opisPredmeta/>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+          </ucenci>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+        <predmet>
+          <id>8</id>
+          <imePredmeta>Matematika1</imePredmeta>
+          <opisPredmeta>1+2+3+2+1 je palindrom</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci/>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+        <predmet>
+          <id>9</id>
+          <imePredmeta>Razvoj inteligentnih sistemov</imePredmeta>
+          <opisPredmeta>Lego mindstormi</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci/>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+      </predmeti>
+    </letnik>
+    <letnik>
+      <letnikIme>2. Letnik</letnikIme>
+      <predmeti>
+        <predmet>
+          <id>4</id>
+          <imePredmeta>Diskretna matematika 2</imePredmeta>
+          <opisPredmeta/>
+          <profesor>
+            <userId>4</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+          </ucenci>
+          <gradivaPredmeta>
+            <gradivo>
+              <id>1</id>
+              <besedilo>Biconnectivity augmentation problem</besedilo>
+              <povezaveGradiva>
+                <povezava>
+                  <id>1</id>
+                  <url>https://www.ads.tuwien.ac.at/research/NetworkDesign/Augmentation/</url>
+                  <besedilo>Znanstveni članek na to temo</besedilo>
+                </povezava>
+              </povezaveGradiva>
+            </gradivo>
+          </gradivaPredmeta>
+          <nalogePredmeta>
+            <naloga>
+              <id>1</id>
+              <besedilo>Sestavi BCA algoritem da bo tekel v O(n). Rešitev oddaj v PDF formatu.</besedilo>
+              <rokOddaje>13.12.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_1_10.1.1.107.5750.pdf</pdfLink>
+                  <ocena>5</ocena>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+          </nalogePredmeta>
+        </predmet>
+        <predmet>
+          <id>5</id>
+          <imePredmeta>Programiranje 2</imePredmeta>
+          <opisPredmeta/>
+          <profesor>
+            <userId>4</userId>
+          </profesor>
+          <ucenci>
+            <userId>5</userId>
+          </ucenci>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+        <predmet>
+          <id>6</id>
+          <imePredmeta>Strojno učenje</imePredmeta>
+          <opisPredmeta>Zakon predmet :o:o:o</opisPredmeta>
+          <profesor>
+            <userId>4</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+          </ucenci>
+          <gradivaPredmeta>
+            <gradivo>
+              <id>1</id>
+              <besedilo>Nekaj povezav za pomoč na prvih predavanjih</besedilo>
+              <povezaveGradiva>
+                <povezava>
+                  <id>1</id>
+                  <url>http://www.google.com</url>
+                  <besedilo>Diskretizacija in regresija</besedilo>
+                </povezava>
+              </povezaveGradiva>
+            </gradivo>
+          </gradivaPredmeta>
+          <nalogePredmeta>
+            <naloga>
+              <id>1</id>
+              <besedilo>Nauči program kako igrati športne stave.</besedilo>
+              <rokOddaje>07.12.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_1_Lecture011609A.pdf</pdfLink>
+                  <ocena/>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+          </nalogePredmeta>
+        </predmet>
+        <predmet>
+          <id>7</id>
+          <imePredmeta>Umetna inteligenca</imePredmeta>
+          <opisPredmeta>Zabavali se bomo s prologom.</opisPredmeta>
+          <profesor>
+            <userId>4</userId>
+          </profesor>
+          <ucenci/>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+        <predmet>
+          <id>10</id>
+          <imePredmeta>Podatkovne baze 1</imePredmeta>
+          <opisPredmeta>XML itd.</opisPredmeta>
+          <profesor>
+            <userId>4</userId>
+          </profesor>
+          <ucenci/>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+      </predmeti>
+    </letnik>
+    <letnik>
+      <letnikIme>3. Letnik</letnikIme>
+      <predmeti>
+        <predmet>
+          <id>11</id>
+          <imePredmeta>Matematika 3</imePredmeta>
+          <opisPredmeta>Linearna algebra</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci/>
+          <gradivaPredmeta/>
+          <nalogePredmeta/>
+        </predmet>
+        <predmet>
+          <id>12</id>
+          <imePredmeta>Odločitveni sistemi</imePredmeta>
+          <opisPredmeta>kakšna bo vaša odločitev?</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+          </ucenci>
+          <gradivaPredmeta/>
+          <nalogePredmeta>
+            <naloga>
+              <id>1</id>
+              <besedilo>Ali boste naredili predmet?</besedilo>
+              <rokOddaje>08.12.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_1_graph-theory-0.3.pdf</pdfLink>
+                  <ocena>95</ocena>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+          </nalogePredmeta>
+        </predmet>
+        <predmet>
+          <id>13</id>
+          <imePredmeta>Železno programiranje</imePredmeta>
+          <opisPredmeta>Programiranje iz starih časov</opisPredmeta>
+          <profesor>
+            <userId>2</userId>
+          </profesor>
+          <ucenci>
+            <userId>3</userId>
+          </ucenci>
+          <gradivaPredmeta/>
+          <nalogePredmeta>
+            <naloga>
+              <id>1</id>
+              <besedilo>Napiši poljuben program.</besedilo>
+              <rokOddaje>15.12.2011</rokOddaje>
+              <oddaneNaloge>
+                <oddanaNaloga>
+                  <id>1</id>
+                  <userId>3</userId>
+                  <pdfLink>3_1_graph-theory-0.3.pdf</pdfLink>
+                  <ocena>95</ocena>
+                </oddanaNaloga>
+              </oddaneNaloge>
+            </naloga>
+          </nalogePredmeta>
+        </predmet>
+      </predmeti>
+    </letnik>
+  </letniki>
+</baza>
