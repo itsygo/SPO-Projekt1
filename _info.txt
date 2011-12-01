@@ -1,7 +1,6 @@
 ########################
 SPLETNA U�ILNICA
 ########################
-test
 
 	Novice o tem, da Ladislava in Jovo na veliko informatizirata svoji �oli je prebudila va� podjetni�ki duh. 
 	Zakaj ne bi izdelali spletne u�ilnice, ki bi jo lahko prodali kar obema... Pozabite na odprtokodni Moodle, 
