@@ -1,7 +1,6 @@
 <?php
 /* tomi kuha */
-require_once ("functions/XmlParsing.php");
-
+require_once("functions/XmlParsing.php");
 require_once("functions/functions.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"

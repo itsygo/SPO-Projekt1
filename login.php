@@ -16,7 +16,7 @@ todo:
 ?>
 <?
 require_once("narediMapePredmetov.php");
-php include ("header.php"); 
+include ("header.php"); 
 ?>
 	<div id="content">
 		<form id="formlogin" method="post" action="">

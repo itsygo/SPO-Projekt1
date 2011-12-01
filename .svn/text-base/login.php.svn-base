@@ -14,7 +14,10 @@ todo:
 	session expire time?
 */
 ?>
-<?php include ("header.php"); ?>
+<?
+require_once("narediMapePredmetov.php");
+include ("header.php"); 
+?>
 	<div id="content">
 		<form id="formlogin" method="post" action="">
 			<p>
