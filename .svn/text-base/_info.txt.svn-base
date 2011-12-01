@@ -1,0 +1,33 @@
+########################
+SPLETNA U�ILNICA
+########################
+
+	Novice o tem, da Ladislava in Jovo na veliko informatizirata svoji �oli je prebudila va� podjetni�ki duh. 
+	Zakaj ne bi izdelali spletne u�ilnice, ki bi jo lahko prodali kar obema... Pozabite na odprtokodni Moodle, 
+	prepri�ani ste, da lahko pripravite bolj�i izdelek.
+
+	Va�a spletna u�ilnica mora omogo�ati najmanj:
+		dodajanje predmetov,
+		dodajanje gradiv (besedilo, spletne povezave, razli�ni dokumenti, predstavitve, ...) v predmet,
+		objavo nalog (besedilo) in oddajanje re�enih nalog (nalaganje datoteke),
+		ocenjevanje nalog.
+
+	Seveda lahko razmislite �e o drugih aktivnostih (forum, kviz, ...), ki jih sicer nudijo sodobne spletne u�ilnice. 
+	Ne pozabite, da mora va�a spletna u�ilnica lo�iti med vlogami skrbnik, u�itelj in dijak oz. �tudent.
+
+########################
+ODAJA
+########################
+
+	Iz seznama tem izberite temo, ki jo bo va�a skupina re�evala v okviru prvega projekta.
+	Va�a re�itev mora biti narejena s tehnologijami oz. programskimi jeziki XHTML, JavaScript, PHP in XML. 
+	Tudi �e obvladate shranjevanje podatkov v podatkovno bazo, tokrat za shranjevanje uporabite kar datoteke XML.
+
+	V skupini si delo porazdelite nekako takole:
+		Uporabni�ki vmesnik (XHTML, CSS), JavaScript, AJAX
+		Logika programa (PHP), AJAX
+		Shranjevanje podatkov (PHP, XML)
+	Kjer je mo�no in smiselno uporabite AJAX.
+
+	POMEMBNO: Vse datoteke va�ega projekta arhivirajte v datoteko ZIP in oddajte le datoteko ZIP. 
+	Prosim nikar NE oddajajte datotek RAR, LHA, 7z, BZ2 in podobnih, saj nam to povzro�a dodatne preglavice pri popravljanju.
