@@ -17,8 +17,8 @@ function narediMapePredmetov() {
                 //naredi folder za predmet
                 $path = "./upload/pdfji/".imePredmetaStrippedArgIme((string)$predmet->imePredmeta);
                 //echo "PATH:".$path;
-                mkdir($path, 0777);
-                echo "Naredil mapo:".$path."<br />";
+                @mkdir($path, 0777);
+                //echo "Naredil mapo:".$path."<br />";
             }
         }
     }
